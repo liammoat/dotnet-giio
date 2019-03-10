@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9EEE416A-78BA-4720-AC12-45223F0F701D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiamMoat.DotNet.GitIgnore", "src\LiamMoat.DotNet.GitIgnore\LiamMoat.DotNet.GitIgnore.csproj", "{FFB817A1-AE4E-46E1-BF7D-B290ABE885E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9420D746-FF12-4596-8763-4806F6C807E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiamMoat.DotNet.GitIgnore.Tests", "test\LiamMoat.DotNet.GitIgnore.Tests\LiamMoat.DotNet.GitIgnore.Tests.csproj", "{85D3E6C4-AC55-4CF2-940E-78A82A480557}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6E62B727-7D2C-4A65-8F51-10E364CE0CF4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		LICENCE.txt = LICENCE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFB817A1-AE4E-46E1-BF7D-B290ABE885E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB817A1-AE4E-46E1-BF7D-B290ABE885E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB817A1-AE4E-46E1-BF7D-B290ABE885E3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FFB817A1-AE4E-46E1-BF7D-B290ABE885E3}.Debug|x64.Build.0 = Debug|Any CPU
+		{FFB817A1-AE4E-46E1-BF7D-B290ABE885E3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FFB817A1-AE4E-46E1-BF7D-B290ABE885E3}.Debug|x86.Build.0 = Debug|Any CPU
+		{FFB817A1-AE4E-46E1-BF7D-B290ABE885E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB817A1-AE4E-46E1-BF7D-B290ABE885E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB817A1-AE4E-46E1-BF7D-B290ABE885E3}.Release|x64.ActiveCfg = Release|Any CPU
+		{FFB817A1-AE4E-46E1-BF7D-B290ABE885E3}.Release|x64.Build.0 = Release|Any CPU
+		{FFB817A1-AE4E-46E1-BF7D-B290ABE885E3}.Release|x86.ActiveCfg = Release|Any CPU
+		{FFB817A1-AE4E-46E1-BF7D-B290ABE885E3}.Release|x86.Build.0 = Release|Any CPU
+		{85D3E6C4-AC55-4CF2-940E-78A82A480557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85D3E6C4-AC55-4CF2-940E-78A82A480557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85D3E6C4-AC55-4CF2-940E-78A82A480557}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{85D3E6C4-AC55-4CF2-940E-78A82A480557}.Debug|x64.Build.0 = Debug|Any CPU
+		{85D3E6C4-AC55-4CF2-940E-78A82A480557}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{85D3E6C4-AC55-4CF2-940E-78A82A480557}.Debug|x86.Build.0 = Debug|Any CPU
+		{85D3E6C4-AC55-4CF2-940E-78A82A480557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85D3E6C4-AC55-4CF2-940E-78A82A480557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85D3E6C4-AC55-4CF2-940E-78A82A480557}.Release|x64.ActiveCfg = Release|Any CPU
+		{85D3E6C4-AC55-4CF2-940E-78A82A480557}.Release|x64.Build.0 = Release|Any CPU
+		{85D3E6C4-AC55-4CF2-940E-78A82A480557}.Release|x86.ActiveCfg = Release|Any CPU
+		{85D3E6C4-AC55-4CF2-940E-78A82A480557}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FFB817A1-AE4E-46E1-BF7D-B290ABE885E3} = {9EEE416A-78BA-4720-AC12-45223F0F701D}
+		{85D3E6C4-AC55-4CF2-940E-78A82A480557} = {9420D746-FF12-4596-8763-4806F6C807E0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8945FA07-908B-4091-8C26-4B2EC6A52478}
+	EndGlobalSection
+EndGlobal

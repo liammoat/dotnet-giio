@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LiamMoat.Dotnet.GitIgnore.Tool": {
+      "commandName": "Project",
+      "commandLineArgs": "--help"
+    }
+  }
+}

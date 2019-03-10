@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>dotnet-giio</AssemblyName>
+
+    <Title>dotnet-giio</Title>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>liammoat</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/liammoat/dotnet-giio</RepositoryUrl>
+    <Description>.NET Global Tool to generate .gitignore files using gitignore.io</Description>
+    <Copyright>Copyright © 2018 Liam Moat</Copyright>
+    <PackageTags>.gitignore giio gitignore gitignore.io ignore dotnet cli</PackageTags>
+
+
+    <IsPackable>true</IsPackable>
+    <PackAsTool>true</PackAsTool>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.3.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>
