@@ -35,6 +35,12 @@ dotnet giio list --query visualstudio
 dotnet giio generate visualstudio node
 ```
 
+### Preview
+
+```cmd
+dotnet giio preview visualstudio node
+```
+
 ### Update
 
 ```cmd
