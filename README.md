@@ -8,6 +8,8 @@
 [nuget]: https://www.nuget.org/packages/dotnet-giio/
 [nuget-badge]: https://img.shields.io/nuget/v/dotnet-giio.svg?style=flat-square&label=nuget
 
+![Demo of dotnet diio](https://github.com/liammoat/dotnet-giio/raw/master/assets/demo.gif)
+
 ## Install
 Before you can install ```giio``` you will need to download and install .NET Core 2.1 from [dot.net](https://dot.net). Install ```giio``` as a global tool:
 
