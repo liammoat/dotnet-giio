@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 namespace LiamMoat.DotNet.GitIgnore.Commands
 {
 	[HelpOption]
-	[Command(Description = "List available types")]
+	[Command(Description = "List available types from gitignore.io")]
 	public class ListCommand
 	{
 		private readonly IGitIgnoreService _gitIgnoreService;
@@ -15,7 +15,7 @@ namespace LiamMoat.DotNet.GitIgnore.Commands
 			_gitIgnoreService = gitIgnoreService;
 		}
 
-		[Option("--query", CommandOptionType.SingleValue)]
+		[Option("--query", "Search types by name", CommandOptionType.SingleValue)]
 		public string Query { get; set; }
 
 		private async Task<int> OnExecuteAsync(CommandLineApplication app, IConsole console)

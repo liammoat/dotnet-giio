@@ -17,7 +17,7 @@ namespace LiamMoat.DotNet.GitIgnore.Commands
             _ignoreWriter = ignoreWriter;
         }
 
-		[Argument(0, "Types", "")]
+		[Argument(0, "Types", "List of operating systems, programming languages and IDEs")]
 		public string[] Types { get; set; }
 
 		private async Task<int> OnExecuteAsync(CommandLineApplication app, IConsole console)

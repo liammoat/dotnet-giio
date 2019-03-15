@@ -15,8 +15,8 @@ namespace LiamMoat.DotNet.GitIgnore.Commands
 			_gitIgnoreService = gitIgnoreService;
         }
 
-		[Argument(0, "Types", "")]
-		public string[] Types { get; set; }
+        [Argument(0, "Types", "List of operating systems, programming languages and IDEs")]
+        public string[] Types { get; set; }
 
 		private async Task<int> OnExecuteAsync(CommandLineApplication app, IConsole console)
 		{
