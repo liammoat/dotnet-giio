@@ -4,9 +4,9 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <AssemblyName>dotnet-giio</AssemblyName>
-
+    
     <Title>dotnet-giio</Title>
-    <PackageVersion>1.0.2</PackageVersion>
+    <Version>1.0.2</Version>
     <Authors>liammoat</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/liammoat/dotnet-giio</RepositoryUrl>

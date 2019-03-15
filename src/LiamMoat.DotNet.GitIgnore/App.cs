@@ -1,4 +1,5 @@
-﻿using LiamMoat.DotNet.GitIgnore.Commands;
+﻿using System.Reflection;
+using LiamMoat.DotNet.GitIgnore.Commands;
 using McMaster.Extensions.CommandLineUtils;
 
 namespace LiamMoat.DotNet.GitIgnore
@@ -7,6 +8,7 @@ namespace LiamMoat.DotNet.GitIgnore
     [Subcommand(typeof(ListCommand))]
     [Subcommand(typeof(GenerateCommand))]
     [Subcommand(typeof(PreviewCommand))]
+    [VersionOptionFromMember(MemberName = nameof(GetVersion))]
     [Command(Name = "dotnet giio", Description = "Create useful .gitignore files for your project using gitignore.io")]
     public class App
     {
@@ -14,6 +16,12 @@ namespace LiamMoat.DotNet.GitIgnore
         {
             app.ShowHelp();
             return 0;
+        }
+
+        public static string GetVersion()
+        {
+            var version = Assembly.GetEntryAssembly().GetName().Version;
+            return $"{version.Major}.{version.Minor}.{version.Build}";
         }
     }
 }
