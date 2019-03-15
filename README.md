@@ -10,11 +10,17 @@
 
 ![Demo of dotnet diio](https://github.com/liammoat/dotnet-giio/raw/master/assets/demo.gif)
 
-## Install
-Before you can install ```giio``` you will need to download and install .NET Core 2.1 from [dot.net](https://dot.net). Install ```giio``` as a global tool:
+## Installation
+Download and install the [.NET Core 2.1 SDK](https://www.microsoft.com/net/download) or newer. Once installed, run the following command:
 
 ```
 dotnet tool install --global dotnet-giio
+```
+
+If you already have a previous version of **dotnet-giio** installed, you can upgrade to the latest version using the following command:
+
+```bash
+dotnet tool update --global dotnet-giio
 ```
 
 ## Usage
@@ -38,20 +44,6 @@ Preview a generated a .gitignore file.
 
 ```cmd
 dotnet giio preview visualstudio node
-```
-
-### Update
-To update ```giio``` to the latest version:
-
-```
-dotnet tool update -g dotnet-giio
-```
-
-### Uninstall
-To uninstall ```giio```:
-
-```cmd
-dotnet tool uninstall -g dotnet-giio
 ```
 
 ## License
