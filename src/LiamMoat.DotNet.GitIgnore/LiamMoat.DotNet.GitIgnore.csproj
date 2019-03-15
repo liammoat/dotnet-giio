@@ -10,7 +10,7 @@
     <Authors>liammoat</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/liammoat/dotnet-giio</RepositoryUrl>
-    <Description>.NET Global Tool to generate .gitignore files using gitignore.io</Description>
+    <Description>.NET global tool to create useful .gitignore files for your project using gitignore.io</Description>
     <Copyright>Copyright © 2018 Liam Moat</Copyright>
     <PackageTags>.gitignore giio gitignore gitignore.io ignore dotnet cli</PackageTags>
 
